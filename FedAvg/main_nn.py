@@ -12,7 +12,7 @@ import numpy as np
 from tqdm import tqdm
 import torch
 from datasets import build_datasets
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 from options import args_parser
 from Update import LocalUpdate
 from FedNets import build_model
